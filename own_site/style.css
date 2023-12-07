@@ -1,0 +1,49 @@
+body{
+    background-image: url(alexander-smagin-Vkhj9sjYN9Q-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header_logo{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    line-height: 10px;
+    margin-left: 90px;
+    margin-top: -60px;
+}
+h1{
+    font-family: 'Rubik Mono One', monospace;
+    font-weight: 100;
+
+}
+.Union_img{
+    width:45px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+header {
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    left:0;
+    top: 0;
+    padding-bottom: 15px;
+    z-index: 2; /*закрепить как главное. значене 2 закрепляет*/
+}
+.header_menu{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: -50px;
+    margin-left: 750px;
+    display: flex;
+    
+}
+.header_menu a{
+    color: black;
+    padding-left: 20px;
+    margin-left: 60px;
+    text-decoration:none;
+    font-weight: bold
+}
