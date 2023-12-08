@@ -1,7 +1,8 @@
 body{
-    background-image: url(alexander-smagin-Vkhj9sjYN9Q-unsplash.jpg);
+    background-image:url(alexander-smagin-Vkhj9sjYN9Q-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: black;
 }
 .header_logo{
     font-size: 12px;
@@ -15,6 +16,7 @@ h1{
     font-weight: 100;
 
 }
+
 .Union_img{
     width:45px;
     height: 50px;
@@ -49,20 +51,20 @@ header {
 }
 .fa-magnifying-glass{
     color: rgb(0, 0, 0);
-    font-size: 30px;
-    margin-left: 1440px;
+    font-size: 27px;
+    margin-left: 1445px;
     margin-top: 40px;
     cursor: pointer;
 }
 .fa-user{
-    font-size: 35px;
-    margin-left: 1440px;
+    font-size: 30px;
+    margin-left: 1445px;
     margin-top: 40px;
     cursor: pointer;
 }
 .fa-share-from-square{
-    font-size: 35px;
-    margin-left: 1440px;
+    font-size: 30px;
+    margin-left: 1445px;
     margin-top: 40px;
     cursor: pointer;
 }
@@ -71,4 +73,11 @@ header {
     margin-left:18%;
     margin-top: 250px;
     color:#FFE247;
+}
+.subtitle{
+    font-size: 15px;
+    font-family:'Montserrat', sans-serif ;
+    margin-top: -220px;
+    margin-left: 19.3%;
+    color: white;
 }
