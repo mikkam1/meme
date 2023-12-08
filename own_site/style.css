@@ -71,7 +71,7 @@ header {
 .title{
     font-size: 150px;
     margin-left:18%;
-    margin-top: 250px;
+    margin-top: 200px;
     color:#FFE247;
 }
 .subtitle{
@@ -80,4 +80,60 @@ header {
     margin-top: -220px;
     margin-left: 19.3%;
     color: white;
+}
+.button_book{
+    font-size: 35px;
+    margin-left: 295px;
+    font-family: 'Rubik Mono One', monospace;
+    border-radius: 50px;
+    background-color:#ffe347b6 ;
+    transition: border-radius 0.3s;
+    height: 60px;
+    width: 200px;
+    margin-top: 40px;
+    color: white;
+    border: 2px solid white ;
+    cursor: pointer;
+}
+@keyframes anim{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.button_book:hover{
+    animation: anim 1s ease;
+}
+.button_more{
+    font-size: 35px;
+    margin-left: 100px;
+    font-family: 'Rubik Mono One', monospace;
+    border-radius: 50px;
+    background-color:#ffffff8d ;
+    transition: border-radius 0.3s;
+    height: 60px;
+    width: 200px;
+    margin-top: 40px;
+    color: white;
+    border: 2px solid white ;
+    cursor: pointer;
+}
+@keyframes anim1{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.button_more:hover{
+    animation: anim 1s ease;
 }
