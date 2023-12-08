@@ -47,3 +47,28 @@ header {
     text-decoration:none;
     font-weight: bold
 }
+.fa-magnifying-glass{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-left: 1440px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.fa-user{
+    font-size: 35px;
+    margin-left: 1440px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.fa-share-from-square{
+    font-size: 35px;
+    margin-left: 1440px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.title{
+    font-size: 150px;
+    margin-left:18%;
+    margin-top: 250px;
+    color:#FFE247;
+}
