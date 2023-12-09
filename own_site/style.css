@@ -28,7 +28,6 @@ header {
     left:0;
     top: 0;
     padding-bottom: 15px;
-    z-index: 2; /*закрепить как главное. значене 2 закрепляет*/
 }
 .header_menu{
     font-family: 'Montserrat', sans-serif;
@@ -46,4 +45,106 @@ header {
     margin-left: 60px;
     text-decoration:none;
     font-weight: bold
+<<<<<<< Updated upstream
 }
+=======
+}
+.bi-search{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.bi-person{
+    font-size: 35px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.bi-share{
+    font-size: 30px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.icons{
+    text-align: right;
+    margin-right: 1%;
+    display: grid;
+}
+.title{
+    font-size: 150px;
+    margin-left:18%;
+    margin-top: 200px;
+    color:#FFE247;
+}
+.subtitle{
+    font-size: 15px;
+    font-family:'Montserrat', sans-serif ;
+    margin-top: -220px;
+    margin-left: 19.3%;
+    color: white;
+}
+.button_book{
+    font-size: 35px;
+    margin-left: 295px;
+    font-family: 'Rubik Mono One', monospace;
+    border-radius: 50px;
+    background-color:#ffe347b6 ;
+    transition: border-radius 0.3s;
+    height: 60px;
+    width: 200px;
+    margin-top: 40px;
+    color: white;
+    border: 2px solid white ;
+    cursor: pointer;
+}
+@keyframes anim{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.button_book:hover{
+    animation: anim 1s ease;
+}
+.button_more{
+    font-size: 35px;
+    margin-left: 100px;
+    font-family: 'Rubik Mono One', monospace;
+    border-radius: 50px;
+    background-color:#ffffff8d ;
+    transition: border-radius 0.3s;
+    height: 60px;
+    width: 200px;
+    margin-top: 40px;
+    color: white;
+    border: 2px solid white ;
+    cursor: pointer;
+}
+@keyframes anim1{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.button_more:hover{
+    animation: anim 1s ease;
+}
+.buttons{
+    margin-left:10%;
+}
+main{
+    background-image: url(tours_back.png);
+    margin: 0;
+    padding: 0;
+}
+>>>>>>> Stashed changes
